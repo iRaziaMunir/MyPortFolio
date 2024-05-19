@@ -122,9 +122,6 @@ const Projects = () => {
         {miniProjects.map((project) => {
           return(
             <div className='flex flex-col  lg:flex-row gap-10 text-white'>
-              {/* <div className='w-[50%] '>
-                <img src={project.image} alt="" className='rounded-lg'/>
-              </div> */}
               <div className=' w-full lg:w-[50%] flex flex-col gap-4 items-center '>
                 <h2 className=' text-3xl text-slate-400 font-bold'><span className=' text-blue-400'>{project.id}.</span> {project.title}</h2>
                 <h3 className='text-xl text-pink-400 text-center'>Technologies used </h3>
