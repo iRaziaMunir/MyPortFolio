@@ -24,11 +24,11 @@ export const navLinks = [
     title: "Projects",
     path : "/projects"
   },
-  {
-    id: "github",
-    title: "Github",
-    path : "/github"
-  },
+  // {
+  //   id: "github",
+  //   title: "Github",
+  //   path : "/github"
+  // },
   {
     id: "contact",
     title: "Contact",
