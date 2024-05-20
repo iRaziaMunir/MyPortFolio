@@ -21,7 +21,7 @@ const Contact = () => {
     }
   ]
   return (
-    <div className='w-full bg-black flex flex-col gap-32 items-center py-40 text-white'>
+    <div className='w-full lg:h-screen bg-black flex flex-col gap-32 items-center py-40 text-white'>
       <div>
         <h2 className='text-5xl py-2 border-2 border-black border-b-blue-400 hover:border-b-pink-400'>Get in Touch</h2>
       </div>

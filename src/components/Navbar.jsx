@@ -62,7 +62,7 @@ const Navbar = () => {
           <li 
             key={nav.id}
             className={`font-poppins font-normal cursor-pointer text-[18px] hover:text-white py-2 border-2 border-black hover:border-b-indigo-500 ${
-              active === nav.id ? "text-[#3b3467] font-semibold" : "text-[#6498ab]"
+              active === nav.id ? "text-[#9585ff] font-semibold border-2 border-black border-b-indigo-500" : "text-[#93cce1]"
             } ${nav.id === navLinks[navLinks.length - 1].id ? "mr-0" : "mr-10"} mt-4 md:mt-0`}
             onClick={() => setActive(nav.id)}
           >
