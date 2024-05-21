@@ -48,3 +48,9 @@
 .mousecircle {
   transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
 }
+.oddSection-bg-color {
+  background-color: #162423;
+}
+.evenSection-bg-color {
+  background-color: #0d1f24;
+}
