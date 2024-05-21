@@ -3,18 +3,21 @@ import { FaAngellist } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 const About = () => {
   return (
-    <div className='py-40 sm:my-0 flex flex-col justify-center items-center'>
+    <div id = 'about' className=' py-4 lg:py-40 sm:my-0 flex flex-col justify-center items-center evenSection-bg-color'>
       <div className="container sm:mt-10 mt-0 mx-auto px-4 flex flex-col lg:flex-row md:gap-10 gap-0 items-center justify-center">
       <div className="w-full lg:w-1/1 p-10">
         <div className="relative flex justify-center lg:justify-start">
           <span className="animate-ping absolute inline-flex h-40 w-40 lg:h-60 lg:w-60 rounded-full bg-pink-500 opacity-75"></span>
           <span className="animate-ping relative inline-flex rounded-full h-10 w-10 bg-sky-400 p-2"></span>
         </div>
-        <h2 className="tracking-wide text-2xl md:text-4xl lg:text-6xl text-white hover:text-orange-500 font-semibold py-10 text-center animate-pulse ">About Me</h2>
-        <p className="text-lg text-start text-white">
+        <div className='text-center '>
+        <h2 className="text-5xl py-10  animate-pulse ">About Me</h2>
+        </div>
+        <div>
+        <p className="text-lg text-start py-10">
           I am a passionate web developer with experience in building modern web applications using HTML, CSS, JavaScript, Bootstrap, Tailwind CSS, and React.js. This is my About page where you can learn more about my skills, experiences, and interests. My dedication to continuous learning and problem-solving ensures efficient and effective project delivery. Let's collaborate to bring your ideas to life and create impactful digital experiences together.
         </p>
-        
+        </div>
         <div className='mt-10 h-auto flex md:flex-row flex-col gap-10 items-center justify-start text-pink-500'>
         <div className='w-full sm:w-1/2 md:w-1/4 lg:w-1/2  h-32 flex flex-col items-center justify-center outline outline-1 outline-[#1e9adf] rounded-md hover:outline-pink-500  hover:text-[#1e9adf]'>
           <h2 className='text-2xl'>10 +</h2>
@@ -29,7 +32,7 @@ const About = () => {
           <h3 className='text-xl'>Real Project</h3>
         </div>
         </div>
-        <div className='text-white py-10 px-4 flex flex-col md:flex-row justify-start gap-20'>
+        <div className='text-blue-400 py-10 px-4 flex flex-col md:flex-row justify-start gap-20'>
           <ul className='list-disc'>
           <li className='flex gap-2 items-center hover:text-pink-500'>
               <FaAngellist className='text-orange-500 hover:text-pink-500' />

@@ -114,7 +114,7 @@ const Projects = () => {
    
   ]
   return (
-    <div className='w-full py-40 flex flex-col items-center'>
+    <div id='projects' className='w-full py-40 flex flex-col items-center evenSection-bg-color'>
       <div>
         <h2 className='text-white text-5xl pb-20'>My Projects</h2>
       </div>
