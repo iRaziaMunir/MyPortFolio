@@ -9,7 +9,7 @@ const Header = () => {
   const texts = ["Hello, world!", "Welcome to React!", "Enjoy Typewriter Effect!"];
 
   return (
-    <section className="w-full py-40 px-4 md:px-12 lg:px-0 flex items-center rounded-md">
+    <section className="w-full py-40 px-4 md:px-12 lg:px-0 flex items-center rounded-md ">
         <div className="w-full flex flex-col md:flex-row items-center justify-center">
           {/* Text Section */}
           <div className=" w-full md:w-1/2 lg:w-2/2 md:pr-8 lg:pr-12 mb-8 md:mb-0">
@@ -23,9 +23,9 @@ const Header = () => {
               I am <span className='font-semibold text-[#ffc100] hover:text-[#df1edc] hover:transition-all hover:ease-in-out hover:duration-700 uppercase motion-safe:animate-pulse drop-shadow-5xl'> Razia Munir!</span><br />
               {/* <span className='hover:text-[#6b6d34] text-[#701219] tracking-wide'>Frontend Developer</span>  */}
             </p>
-            <h1 className="text-[4vw] font-semibold uppercase opacity-60 leading-none ml-8 lg:ml-10 text-pink-900">Frontend</h1>
+            <h1 className="text-[4vw] font-semibold uppercase opacity-60 leading-none ml-8 lg:ml-10 text-slate-50">Frontend</h1>
             <div id="headingdiv2" className="w-fit">
-              <h1 id="heading2" className="text-[4vw] font-semibold uppercase opacity-60 leading-none ml-40 text-pink-900">Developer</h1>
+              <h1 id="heading2" className="text-[4vw] font-semibold uppercase opacity-60 leading-none ml-40 text-slate-50 ">Developer</h1>
               <h4 id="text" className="text-right opacity-60 text-sm uppercase text-white">lives in Lahore</h4>
             </div>
             <div className='flex flex-wrap gap-5 hover:cursor-pointer'>
