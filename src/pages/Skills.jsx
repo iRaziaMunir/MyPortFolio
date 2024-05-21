@@ -14,7 +14,7 @@ const skills = () => {
   ]
 
   return (
-    <div className="w-full flex flex-col gap-40 items-center py-40">
+    <div id='skills' className="w-full flex flex-col gap-40 items-center py-4 lg:py-40 oddSection-bg-color">
       <div className=''>
         <h2 className='text-white text-5xl'>My Skills</h2>
       </div>

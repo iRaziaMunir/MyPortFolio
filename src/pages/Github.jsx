@@ -2,7 +2,7 @@ import React from 'react'
 
 const Github = () => {
   return (
-    <div>
+    <div id='gitub'>
       Github
     </div>
   )
