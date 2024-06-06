@@ -47,7 +47,7 @@ const Hero = () => {
           <div className="w-full h-full max-w-96 md:w-1/2 lg:w-1/1">
             <img
               className="h-auto rounded-md shadow-lg md:rounded-lg hover:scale-105 drop-shadow-2xl"
-              src="public\WhatsApp Image 2024-05-17 at 3.35.46 PM (1).jpeg"
+              src="./Images\WhatsApp Image 2024-05-17 at 3.35.46 PM (1).jpeg"
               alt="Your Image"
             />
           </div>
