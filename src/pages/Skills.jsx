@@ -3,7 +3,6 @@ import '../App.css';
 const skills = () => {
 
   const mySkills = [
-<<<<<<< Updated upstream
     {image: './Images/HtmlLogo.png',name: 'HTML'},
     {image: './Images/css2.png',name: 'CSS'},
     {image: './Images/JavaScript.png',name: 'JavaScript'},
@@ -12,16 +11,6 @@ const skills = () => {
     {image: './Images/react.png',name: 'React JS'},
     {image: './Images/reduxtoolkit.png',name: 'Redux Toolkit'},
     {image: './Images/wix.png',name: 'WIX'}
-=======
-    {image: 'public/html.jfif',name: 'HTML'},
-    {image: 'public/css2.png',name: 'CSS'},
-    {image: 'public/js2.png',name: 'JavaScript'},
-    {image: 'dist/bootstrap3.jfif',name: 'Bootstrap'},
-    {image: 'public/tailwind.jfif',name: 'Tailwind CSS'},
-    {image: 'public/react.png',name: 'React JS'},
-    {image: 'public/reduxtoolkit.png',name: 'Redux Toolkit'},
-    {image: 'public/wix.png',name: 'WIX'}
->>>>>>> Stashed changes
   ]
 
   return (
