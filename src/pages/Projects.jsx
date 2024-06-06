@@ -5,7 +5,7 @@ const Projects = () => {
     { id:'1',
       title: 'Bubble Game',
       description: 'The Bubble Game is an engaging and interactive web-based game where players must click on moving bubbles to pop them and earn points. The game features a simple yet addictive gameplay mechanic, where bubbles of varying sizes float around the screen, and players must be quick and precise to click on them before they disappear. The game incorporates visually appealing animations and responsive design to ensure an enjoyable experience across different devices. It also includes a scoring system to track the player’s progress and encourage replayability.',
-      image: 'public/bubbleGame.PNG',
+      image: './bubbleGame.PNG',
       github: 'https://github.com/NoMi1999/To-Do-List',
       live: 'iraziamunir.github.io/BubbleGame/',
        Techs :[
